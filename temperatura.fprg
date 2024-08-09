@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="DevBackEnd2s24"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-03 05:40:26 "/>
+        <attribute name="created" value="RGV2QmFja0VuZDJzMjQ7REVTS1RPUC05UzZFRzlNOzIwMjQtMDgtMDM7IjA1OjA0OjM3ICI7MzQ0Ng=="/>
+        <attribute name="edited" value="RGV2QmFja0VuZDJzMjQ7REVTS1RPUC05UzZFRzlNOzIwMjQtMDgtMDM7IjA1OjQwOjI2ICI7MTszNTUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="f, c" type="Real" array="False" size=""/>
+            <output expression="&quot;digite a temperatura em f:&quot;" newline="True"/>
+            <input variable="f"/>
+            <assign variable="c" expression="(f-32)/1.8"/>
+            <output expression="&quot;A temperatura &#233;:&quot;&amp;c&quot;f&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
